@@ -2,8 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import ViewportDebugger from './components/ViewportDebugger' 
+import ResponsiveTable from './components/ResponsiveTable' 
 import ContainerTest from './components/ContainerTest'
+import ViewportDebugger from './components/ViewportDebugger' 
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,6 +32,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <ResponsiveTable />
       <ViewportDebugger />
     </>
   )
